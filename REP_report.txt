@@ -1,0 +1,114 @@
+This is a set of 2 correlated experiments:
+Experiment 1:
+     Experiment: Temperature
+     Type: numeric
+     Contains 200 valid measurements and 0 errors.
+     Average: 99.5+/-4.09268 K
+     Standard deviation: 57.8792 K
+
+     The distribution of the values is the following:
+     (0-19.9): 20 entries (= 10%)
+     (19.9-39.8): 20 entries (= 10%)
+     (39.8-59.7): 20 entries (= 10%)
+     (59.7-79.6): 20 entries (= 10%)
+     (79.6-99.5): 20 entries (= 10%)
+     (99.5-119.4): 20 entries (= 10%)
+     (119.4-139.3): 20 entries (= 10%)
+     (139.3-159.2): 20 entries (= 10%)
+     (159.2-179.1): 20 entries (= 10%)
+     (179.1-199): 20 entries (= 10%)
+     --------------------------------------------
+Experiment 2:
+     Experiment: Pressure
+     Type: numeric
+     Contains 200 valid measurements and 0 errors.
+     Average: 499.393+/-20.4599 Pa
+     Standard deviation: 289.346 Pa
+
+     The distribution of the values is the following:
+     (1.70724-101.324): 20 entries (= 10%)
+     (101.324-200.94): 20 entries (= 10%)
+     (200.94-300.557): 20 entries (= 10%)
+     (300.557-400.173): 20 entries (= 10%)
+     (400.173-499.79): 20 entries (= 10%)
+     (499.79-599.406): 20 entries (= 10%)
+     (599.406-699.023): 20 entries (= 10%)
+     (699.023-798.639): 20 entries (= 10%)
+     (798.639-898.256): 20 entries (= 10%)
+     (898.256-997.872): 20 entries (= 10%)
+     --------------------------------------------
+A linear fit on these two experiments gives the following:
+Pressure = m x Temperature + c
+With m = 4.99902 +/- 0.00244952
+and c = 1.99098 +/- 0.281785.
+This fit gives a chi squared value of 208.269 (when reduced 1.05186).
+
+#################################################
+
+Experiment: NormDist
+Type: numeric
+Contains 291 valid measurements and 9 errors.
+Average: 49.5297+/-0.282898 km
+Standard deviation: 4.82588 km
+
+The distribution of the values is the following:
+(36.2612-39.0528): 6 entries (= 2.06186%)
+(39.0528-41.8444): 10 entries (= 3.43643%)
+(41.8444-44.636): 27 entries (= 9.27835%)
+(44.636-47.4276): 51 entries (= 17.5258%)
+(47.4276-50.2191): 77 entries (= 26.4605%)
+(50.2191-53.0107): 49 entries (= 16.8385%)
+(53.0107-55.8023): 38 entries (= 13.0584%)
+(55.8023-58.5939): 22 entries (= 7.56014%)
+(58.5939-61.3855): 9 entries (= 3.09278%)
+(61.3855-64.1771): 2 entries (= 0.687285%)
+--------------------------------------------
+
+#################################################
+
+This is a set of 2 correlated experiments:
+Experiment 1:
+     Experiment: Particle
+     Type: string
+     Contains 390 valid measurements and 0 errors.
+
+     The most commmon entries were the following:
+     Value W found 274 times (= 70.2564%)
+     Value Z found 116 times (= 29.7436%)
+     --------------------------------------------
+Experiment 2:
+     Experiment: Energy
+     Type: numeric
+     Contains 390 valid measurements and 0 errors.
+     Average: 83.5576+/-0.279948 GeV
+     Standard deviation: 5.52853 GeV
+
+     The distribution of the values is the following:
+     (74.5974-76.9087): 16 entries (= 4.10256%)
+     (76.9087-79.22): 64 entries (= 16.4103%)
+     (79.22-81.5313): 121 entries (= 31.0256%)
+     (81.5313-83.8426): 62 entries (= 15.8974%)
+     (83.8426-86.1538): 12 entries (= 3.07692%)
+     (86.1538-88.4651): 10 entries (= 2.5641%)
+     (88.4651-90.7764): 38 entries (= 9.74359%)
+     (90.7764-93.0877): 38 entries (= 9.74359%)
+     (93.0877-95.399): 22 entries (= 5.64103%)
+     (95.399-97.7103): 7 entries (= 1.79487%)
+     --------------------------------------------
+The average numeric value corresponding to each string outcome is the following:
+W: 80.2393 GeV
+Z: 91.3956 GeV
+
+#################################################
+
+Experiment: CoinFlip
+Type: string
+Contains 196 valid measurements and 4 errors.
+
+The most commmon entries were the following:
+Value tails found 104 times (= 53.0612%)
+Value heads found 92 times (= 46.9388%)
+--------------------------------------------
+
+#################################################
+
